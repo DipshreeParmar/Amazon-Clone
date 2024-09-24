@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* *NAVBAR* */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    color: white;
+}
+
+/* *AMAZON LOOGO-BOX1* */
+.amzlogo{
+    height: 50px;
+    width: 150px;
+    background-image: url("amzlogo.png");
+    background-size: cover;
+    display: flex;
+}
+
+
+/* *DELIVERY TO- BOX2* */
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.delivery{
+    margin-left: 15px;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+
+.country{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+.box2{
+    padding: 10px;
+}
+
+
+/* *NAVSEARCH- BOX3* */
+
+.navsearch{
+    height: 45px;
+    width: 620px;
+    display: flex;
+    border: 2px solid transparent;
+}
+
+.all{
+    height: 45px;
+    width: 50px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+.searchbar{
+    width: 100%;
+    border: none;
+    font-size: 1rem;;
+}
+
+.searchicon{
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.navsearch:hover{
+    border: 2px solid #febd68;
+    border-radius: 6px;
+}
+
+
+/* *ACC AND LIST- BOX4* */
+
+.hello{
+    font-size: 0.85rem;
+    margin-left: 3px;
+}
+
+.acc{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.box4{
+    padding: 10px;
+}
+
+/* *RETURNS & ORDERS- BOX5* */
+
+.return{
+    font-size: 0.85rem;
+}
+
+.box5{
+    padding: 10px;
+}
+
+
+/* *CART- BOX6* */
+
+.carticon i{
+    font-size: 25px;;
+}
+
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.box6{
+    padding: 10px;
+}
+
+
+/* *SECOND NAVBAR* */
+
+.panel{
+    color: white;
+    background-color: #222f3d;
+    height: 39px;
+    display: flex;
+    font: 0.85rem;
+    align-items: center;
+}
+
+.all2{
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.options p{
+    display: inline;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+/* *MAIN BG IMAGE* */
+.bgimg{
+    background-image: url("amz.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+/* *floatbox* */
+.amzindia{
+    display: flex;
+    height: 40px;
+    margin-top: 230px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 1225px;
+}
+
+.amzin{
+    text-decoration: none;
+}
+
+/* *SHOP SECTION 1* */
+
+/**GAMING ACCESSORIES**/
+.box{
+    height: 385px;
+    width: 290px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.shopsec1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gaming{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 21px;;
+}
+
+.boxsec1{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.boxsec2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divs{
+    height: 110px;
+    width: 110px;
+}
+
+.onebox{
+    height: 280px;
+    width: 250px;
+}
+
+.seemore{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.seemore2{
+    margin-top: 44px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+.click{
+    color: #007185;
+    text-decoration: none;
+}
+ 
+/* *ALL IMAGES* */
+
+.div1{
+    background-image: url("hp2.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.div2{
+    background-image: url("wcam.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.div3{
+    background-image: url("mouse.webp");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.div4{
+    background-image: url("chair.webp");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.div5{
+    background-image: url("jean.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.div6{
+    background-image: url("tops.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.div7{
+    background-image: url("dress.jpg");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.div8{
+    background-image: url("boots.jpg");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.div9{
+    background-image: url("glass.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.div10{
+    background-image: url("cloth2.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.div11{
+    background-image: url("kitchen.jpg");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.div12{
+    background-image: url("shampoo2.jpg");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.div13{
+    background-image: url("PC.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+/* *SHOP SECTION 1* */
+
+
+.div14{
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    background-image: url("mob.jpg");
+    background-size: cover;
+}
+
+.div15{
+    margin-top: 50px;
+    height: 72px;
+    width: 72px;
+    background-image: url("tablet.jpg");
+    background-size: cover;
+}
+
+.div16{
+    margin-top: 50px;
+    height: 72px;
+    width: 72px;
+    background-image: url("laptop.jpg");
+    background-size: cover;
+}
+
+.div17{
+    margin-top: 50px;
+    height: 72px;
+    width: 72px;
+    background-image: url("TVs.jpg");
+    background-size: cover;
+}
+
+.div18{
+    margin-top: 20px;
+    background-image: url("toys.jpg");
+    background-size: cover;
+}
+
+.div19{
+    margin-top: 20px;
+    background-image: url("frock.jpg");
+    background-size: cover;
+}
+
+.div20{
+    margin-top: 20px;
+    background-image: url("knit.jpg");
+    background-size: cover;
+}
+
+.div21{
+    margin-top: 50px;
+    background-image: url("jacket.jpg");
+    background-size: cover;
+}
+
+.div22{
+    margin-top: 50px;
+    background-image: url("jewelry.jpg");
+    background-size: cover;
+}
+
+.div23{
+    margin-top: 20px;
+    background-image: url("makeup.jpg");
+    background-size: cover;
+}
+
+
+/* *FOOTER* */
+.space{
+    height: 20px;
+    background-color: #e2e7e6;
+}
+
+.backtotop{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 0.85rem;
+}
+
+.bottom{
+    color: white;
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul p{
+    font-weight: bolder;
+}
+
+/* *END* */
+
+.end{
+    height: 100px;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon2{
+    background-image: url("amazon2.png");
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.lang{
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px 5px 0px 5px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.select{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.currency{
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 7px 5px 5px 5px;
+    margin-right: 20px;
+}
+
+.India{
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 7px 5px 5px 5px;
+}
